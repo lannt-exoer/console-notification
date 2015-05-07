@@ -19,7 +19,7 @@
     <component-plugin>
       <name>SocialProfileListener</name>
       <set-method>registerProfileListener</set-method>
-      <type>org.exoplatform.social.notification.SocialProfileListener</type>
+      <type>com.acme.samples.notification.SocialProfileListener</type>
     </component-plugin>
   </external-component-plugins>
 
@@ -29,7 +29,7 @@
 		<component-plugin profiles="all">
 			<name>console.channel</name>
 			<set-method>register</set-method>
-			<type>org.exoplatform.social.notification.ConsoleChannel</type>
+			<type>com.acme.samples.notification.ConsoleChannel</type>
 			<description>Register the console channel to manager.</description>
 		</component-plugin>
 	</external-component-plugins>
@@ -39,7 +39,7 @@
 		<component-plugin>
 			<name>notification.plugins</name>
 			<set-method>addPlugin</set-method>
-			<type>org.exoplatform.social.notification.plugin.UpdateProfilePlugin</type>
+			<type>com.acme.samples.notification.plugin.UpdateProfilePlugin</type>
 			<description>Initial information for plugin.</description>
 			<init-params>
 				<object-param>

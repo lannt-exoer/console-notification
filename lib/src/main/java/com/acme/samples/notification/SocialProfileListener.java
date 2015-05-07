@@ -14,7 +14,7 @@
 	* You should have received a copy of the GNU Affero General Public License
 	* along with this program. If not, see <http://www.gnu.org/licenses/>.
 */
-package org.exoplatform.social.notification;
+package com.acme.samples.notification;
 
 import org.exoplatform.commons.api.notification.NotificationContext;
 import org.exoplatform.commons.api.notification.model.PluginKey;
@@ -22,7 +22,7 @@ import org.exoplatform.commons.notification.impl.NotificationContextImpl;
 import org.exoplatform.social.core.identity.model.Profile;
 import org.exoplatform.social.core.profile.ProfileLifeCycleEvent;
 import org.exoplatform.social.core.profile.ProfileListenerPlugin;
-import org.exoplatform.social.notification.plugin.UpdateProfilePlugin;
+import com.acme.samples.notification.plugin.UpdateProfilePlugin;
 
 /**
 	* Created by The eXo Platform SAS
