@@ -47,6 +47,21 @@
 				<artifactId>social-notification-addon-lib</artifactId>
 				<version>${project.version}</version>
 			</dependency>
+			<!--<dependency>
+				<groupId>com.acme.samples.notification</groupId>
+				<artifactId>console-notification-webapp</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.acme.samples.notification</groupId>
+				<artifactId>console-notification-lib</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.acme.samples.notification</groupId>
+				<artifactId>console-notification-config</artifactId>
+				<version>${project.version}</version>
+			</dependency>-->
 			<!-- To be replaced by an import of GateIn Portal parent POM -->
 			<dependency>
 				<groupId>org.gatein.portal</groupId>
