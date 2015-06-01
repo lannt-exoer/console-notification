@@ -49,12 +49,7 @@ public class ConsoleChannel extends AbstractChannel {
 		return new AbstractTemplateBuilder() {
 			@Override
 			protected MessageInfo makeMessage(NotificationContext ctx) {
-				NotificationInfo notification = ctx.getNotificationInfo();
-				MessageInfo messageInfo = new MessageInfo();
-				return messageInfo.from(notification.getFrom())
-				.to(notification.getTo())
-				.body(notification.getKey().getId() + " raised notification: " + notification.getTitle())
-				.end();
+				return null;
 			}
 			@Override
 			protected boolean makeDigest(NotificationContext ctx, Writer writer) {
