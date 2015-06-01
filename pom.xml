@@ -37,17 +37,6 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
-			<!-- Our own project modules -->
-			<dependency>
-				<groupId>org.exoplatform.social</groupId>
-				<artifactId>social-notification-addon-webapp</artifactId>
-				<version>${project.version}</version>
-			</dependency>
-			<dependency>
-				<groupId>org.exoplatform.social</groupId>
-				<artifactId>social-notification-addon-lib</artifactId>
-				<version>${project.version}</version>
-			</dependency>
 			<!-- To be replaced by an import of GateIn Portal parent POM -->
 			<dependency>
 				<groupId>org.gatein.portal</groupId>
